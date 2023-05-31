@@ -1,0 +1,66 @@
+body{
+	background-color: #060636;
+	font-family: "Arial", sans-serif;
+}
+/* Styling Navigation Bar*/
+#nav-bar{
+	width: 100%;
+	height: 20%;
+	margin-top: 0px;
+	display: flex;
+}
+#nav-bar-left{
+	margin: 2px;
+	display: flex;
+	width: 30%;
+	align-items: center;
+}
+#logo{
+	height: 100%;
+	width: 40%;
+}
+#nav-bar-left h3{
+	color: white;
+}
+#nav-bar-right{
+	margin-left: auto;
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+#nav-bar-right h3{
+	color: white;
+}
+#search{
+	width: 60%;
+	height: 30%;
+	border-radius: 10px;
+	background-color: #18186b;
+	display: flex;
+	align-items: center;
+}
+#search i{
+	margin: auto;
+}
+#search input{
+	margin-left: auto;
+	background-color:#18186b ;
+	border: none;
+	outline: none;
+	width: 80%;
+	color: white;
+}
+#nav-bar-widgets{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#profile-picture{
+	height: 60%;
+	width: 20%;
+	border-radius: 50%;
+}
+
+
